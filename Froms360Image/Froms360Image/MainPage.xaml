@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Froms360Image"
+             xmlns:im="clr-namespace:Image360;assembly=Image360"
+             x:Class="Froms360Image.MainPage">
+
+    <Grid BackgroundColor="Red">
+        <im:Image360 x:Name="Im360"
+                     Source="https://thenextweb.com/wp-content/blogs.dir/1/files/2015/06/Prague_Getty.jpg" />
+        <ActivityIndicator VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           IsRunning="True"
+                           BindingContext="{x:Reference Name=Im360}"
+                           IsVisible="{Binding IsLoading}" />
+    </Grid>
+
+</ContentPage>

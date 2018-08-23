@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Radwan Ibrahim</Authors>
+    <PackageId>Xamarin.Forms.360Image</PackageId>
+    <PackageProjectUrl>https://github.com/RadwanIbrahim/Xmarin.Forms.360Image</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/RadwanIbrahim/Xmarin.Forms.360Image</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="UrhoSharp.Forms" Version="1.8.93" />
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+  </ItemGroup>
+
+</Project>
